@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hi, Welcome to Pizzeria"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Hope you're satisfied with our service!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's so helpful", "Thanks a lot!"],
+      "responses": ["Glad to help!", "Any time!","Not at all!","My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell pizza",
+        "We have pizza",
+        "We serve you the best pizza"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you accept cash?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?" 
+      ],
+      "responses": [
+        "We accept cash, VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal. Cash is available as well."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When can I get my order?"
+      ],
+      "responses": [
+        "Delivery takes 30 minutes - 1 hour",
+        "It normally takes somewhere between 30 minutes to 1 hour"
+      ]
+    },
+    {
+      "tag": "flavors",
+      "patterns": [
+        "Which pizza flavors do you serve?",
+        "What flavors are there?",
+        "Is there a variety of pizzas?"
+      ],
+      "responses": [
+        "We sell chicken ranch, classic peperroni, cheese lovers, vegeterian, Margarita, Sausage, Tuna, Supersupreme",
+        "We have chicken ranch, classic peperroni, cheese lovers, vegeterian, Margarita, Sausage, Tuna, Supersupreme",
+        "You can choose from chicken ranch, classic peperroni, cheese lovers, vegeterian, Margarita, Sausage, Tuna, Supersupreme"
+      ]
+    },
+    {
+      "tag": "appetizers",
+      "patterns": [
+        "Do you have any side dishes?",
+        "Is salads available?",
+        "Can I order an appetizer?"
+      ],
+      "responses": [
+        "We sell salads, chicken wings, widges,garlic bread",
+        "We have salads, chicken wings, widges,garlic bread",
+        "You can choose from salads, chicken wings, widges,garlic bread"
+      ]
+    },
+    {
+      "tag": "salads",
+      "patterns": [
+        "What are the salads you have",
+        "What are the types of salads on your menu",
+        "Can I choose a salad dish?"
+      ],
+      "responses": [
+        "We sell caeser salad, clowslow, blue cheese salad, tuna salad, macaroni salad, and avocado salad",
+        "We have caeser salad, clowslow, blue cheese salad, tuna salad, macaroni salad, and avocado salad",
+        "You can choose from caeser salad, clowslow, blue cheese salad, tuna salad, macaroni salad, and avocado salad"
+      ]
+    }
+  ]
+}
